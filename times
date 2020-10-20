@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p id="demo">Display here</p> 
+   
+ <script> 
+function times(){
+   var d= new Date();
+ var day =d.getDay();
+ var min =d.getMinutes();
+ var hr =d.getHours();
+ var sec =d.getSeconds();
+ var datea = d.getDate();
+ var days =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.getElementById("demo").innerHTML="Today is :"+days[day]+","+" Time :"+hr+":"+min+":"+sec;
+}
+setInterval(()=>{times()},1000);
+     
+ </script>
+
+
+</body>
+</html>
+
