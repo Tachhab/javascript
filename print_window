@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>The global function (myFunction) returns the product of the arguments (a ,b):</p>
+
+<p id="demo"></p>
+<button onclick="print_current_page()">Print this page</button>
+
+<script>
+			function print_current_page(){
+            	window.print();
+            }
+
+
+</script>
+
+</body>
+</html>
+
+
